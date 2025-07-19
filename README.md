@@ -25,3 +25,24 @@ This is a simple Python console application to manage student data, courses, gra
 
 ```bash
 python main.py
+
+
+## 🧪 Run Tests
+
+To run the unit tests locally:
+
+```bash
+python -m unittest discover
+
+
+## 📂 Project Structure
+
+StudentReportCard/
+│
+├── StudentReportCardMngSys.py   # Core logic (Student, School classes)
+├── test_school.py               # Unit tests for Student and School
+├── main.py                      # Entry point of the application
+├── README.md                    # Project documentation
+├── .gitignore                   # Git ignored files
+└── __pycache__/                 # Python bytecode (auto-generated)
+
